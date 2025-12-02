@@ -1,7 +1,7 @@
 // API service for restaurant linking functionality
 
-const API_BASE_URL = process.env.REACT_APP_BASE_URL || 'https://localhost:3000';
-const apiKey = process.env.REACT_APP_API_KEY;
+const API_BASE_URL =  "https://reisty-staging.azurewebsites.net/api/3.0" || 'https://localhost:3000';
+const apiKey = "4497b48c-ab6f-4f31-8e00-3891923563dc";
 
 /**
  * Confirms the restaurant link with partner
